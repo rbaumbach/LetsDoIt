@@ -4,6 +4,37 @@
 <dict>
 	<key>runDestinationsByUUID</key>
 	<dict>
+		<key>8D8A9E6D-03A2-4C71-84C3-8C5732588D99</key>
+		<dict>
+			<key>localComputer</key>
+			<dict>
+				<key>busSpeedInMHz</key>
+				<integer>400</integer>
+				<key>cpuCount</key>
+				<integer>1</integer>
+				<key>cpuKind</key>
+				<string>8-Core Intel Xeon W</string>
+				<key>cpuSpeedInMHz</key>
+				<integer>3500</integer>
+				<key>logicalCPUCoresPerPackage</key>
+				<integer>16</integer>
+				<key>modelCode</key>
+				<string>MacPro7,1</string>
+				<key>physicalCPUCoresPerPackage</key>
+				<integer>8</integer>
+				<key>platformIdentifier</key>
+				<string>com.apple.platform.macosx</string>
+			</dict>
+			<key>targetArchitecture</key>
+			<string>x86_64</string>
+			<key>targetDevice</key>
+			<dict>
+				<key>modelCode</key>
+				<string>iPhone14,6</string>
+				<key>platformIdentifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+			</dict>
+		</dict>
 		<key>D1073ED5-AF67-4D01-BCB5-8F1D9D865B16</key>
 		<dict>
 			<key>localComputer</key>

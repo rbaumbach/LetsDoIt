@@ -10,8 +10,11 @@ final class LoadingUpUserDefaultsTests: XCTestCase {
         
         userDefaults = UserDefaults.standard
         
+        // Note: The default iteration count for "measure" is 10, however, I'm leaving this here
+        // if future adjustments are warranted.
+        
         measureOptions = XCTMeasureOptions()
-        measureOptions.iterationCount = 3
+        measureOptions.iterationCount = 10
     }
     
     override func tearDown() {
