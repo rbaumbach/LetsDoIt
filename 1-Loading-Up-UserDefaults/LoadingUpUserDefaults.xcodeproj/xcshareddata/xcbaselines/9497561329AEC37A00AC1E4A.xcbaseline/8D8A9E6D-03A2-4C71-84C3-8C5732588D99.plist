@@ -6,12 +6,48 @@
 	<dict>
 		<key>LoadingUpUserDefaultsTests</key>
 		<dict>
+			<key>testAdd10_000StringsToUserDefaults()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>3.040000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>50.000000</real>
+				</dict>
+			</dict>
+			<key>testAdd1_000CustomTypesToUserDefaults()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.507000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>50.000000</real>
+				</dict>
+			</dict>
+			<key>testAdd1_000DictionariesToUserDefaults()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.835000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>50.000000</real>
+				</dict>
+			</dict>
 			<key>testAdd1_000_000IntegersToUserDefaults()</key>
 			<dict>
 				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>1.690000</real>
+					<real>2.600000</real>
 					<key>baselineIntegrationDisplayName</key>
 					<string>Local Baseline</string>
 					<key>maxPercentRelativeStandardDeviation</key>
@@ -30,12 +66,48 @@
 					<real>50.000000</real>
 				</dict>
 			</dict>
+			<key>testAdd3_000ArraysOfIntegersSize10ToUserDefaults()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.972000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>50.000000</real>
+				</dict>
+			</dict>
+			<key>testAdd3_000ArraysOfSize10ToUserDefaults()</key>
+			<dict>
+				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>1.580000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>50.000000</real>
+				</dict>
+			</dict>
+			<key>testAdd3_000DictionariesToUserDefaults()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.837000</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+					<key>maxPercentRelativeStandardDeviation</key>
+					<real>50.000000</real>
+				</dict>
+			</dict>
 			<key>testAdd500_000IntegersToUserDefaults()</key>
 			<dict>
 				<key>com.apple.dt.XCTMetric_Clock.time.monotonic</key>
 				<dict>
 					<key>baselineAverage</key>
-					<real>0.860000</real>
+					<real>1.270000</real>
 					<key>baselineIntegrationDisplayName</key>
 					<string>Local Baseline</string>
 					<key>maxPercentRelativeStandardDeviation</key>
